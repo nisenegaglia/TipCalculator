@@ -14,12 +14,20 @@
     --prePerson: #7F9D9F;
 }
 
-html{
+*{
     background-color: var(--primary-background-color);
     font-weight: 700;
     font-family: 'Space Mono', monospace;
+}
+
+.logo-box{
     display: flex;
     justify-content: center;
 }
 
+.main-box{
+    display: flex;
+    justify-content: center;
+}
+/*right-box is not answering like left-box - i believe is tag problem at main-box*/
 
