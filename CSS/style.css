@@ -1,8 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
 
-*{
-    background-color: #C5E4E7;
+:root {
+    --primary-background-color:#C5E4E7;
+    --primary-white-color: #FFFFFF;
+    --error-orange-color: #E17457;
+    --dark-green-color: #00474B;
+    --input-color-tip-focus:#26C2AE;
+    --input-middle-color:#547878;
+    --input-background-color: #F3F9FA;
+    --form-text-color: #5E7A7D;
+    --btn-reset: #0D686D;
+    --btn-reset-active-tipPersent-hover: #9FE8DF;
+    --prePerson: #7F9D9F;
+}
 
+html{
+    background-color: var(--primary-background-color);
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    justify-content: center;
 }
 
 
