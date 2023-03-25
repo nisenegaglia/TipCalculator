@@ -20,6 +20,9 @@
     font-family: 'Space Mono', monospace;
 }
 
+.blue-box{
+    margin-top: 30vh;
+}
 .logo-box{
     display: flex;
     justify-content: center;
@@ -30,4 +33,3 @@
     justify-content: center;
 }
 /*right-box is not answering like left-box - i believe is tag problem at main-box*/
-
