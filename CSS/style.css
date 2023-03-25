@@ -19,7 +19,6 @@ body{
     background-color: var(--primary-background-color);
     display: flex;
     justify-content: center;
-    
 }
 
 /* Caixa principal */
@@ -44,8 +43,11 @@ body{
     align-items: center;
     background-color: var(--primary-white-color);
     border-radius: 10%; 
-    width: 30vw;
+    width: 20rem;
     height: auto;
     padding: 20px;
 }
 
+.form-text{
+    color: var(--form-text-color);
+}
