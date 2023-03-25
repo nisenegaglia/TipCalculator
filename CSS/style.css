@@ -20,16 +20,26 @@
     font-family: 'Space Mono', monospace;
 }
 
+/* Caixa principal */
 .blue-box{
-    margin-top: 30vh;
+    
 }
+
+/* Logo */
 .logo-box{
     display: flex;
     justify-content: center;
+    margin-top: 15vh;
 }
 
+/* Caixa da Calculadora */
 .main-box{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
+    position: absolute;
+    left: 25%;
 }
-/*right-box is not answering like left-box - i believe is tag problem at main-box*/
+
+
