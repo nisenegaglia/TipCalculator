@@ -42,12 +42,37 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: var(--primary-white-color);
-    border-radius: 10%; 
+    border-radius: 5%; 
     width: 20rem;
     height: auto;
-    padding: 20px;
+    padding: 30px;
 }
 
 .form-text{
     color: var(--form-text-color);
+}
+
+input{
+    line-height: 2.5rem;
+    cursor: pointer;
+    text-align: right;
+    border: 0,125rem, solid var(--primary-white-color);
+    border-radius: 3%;
+    /* caret-color: var(--input-color-tip-focus);  */
+}
+
+/* Primeira caixa - Bill */
+.input-first .bill{
+    width: 20rem; 
+    height: 2rem;
+    background-image: url(../IMAGES/icon-dollar.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: var(--input-background-color);
+    margin-top: 0.8rem;
+}
+
+/* Segunda caixa - Select Tip */
+.middle-box{
+    margin-top: 2rem;
 }
