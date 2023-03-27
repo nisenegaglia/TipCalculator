@@ -4,14 +4,14 @@
 :root {
     --primary-background-color:#C5E4E7;
     --primary-white-color: #FFFFFF;
-    --error-orange-color: #E17457;
+    /* --error-orange-color: #E17457; */
     --dark-green-color: #00474B;
     --input-color-tip-focus:#26C2AE;
     --input-middle-color:#547878;
     --input-background-color: #F3F9FA;
     --form-text-color: #5E7A7D;
     --btn-reset: #0D686D;
-    --btn-reset-active-tipPersent-hover: #9FE8DF;
+    /* --btn-reset-active-tipPersent-hover: #9FE8DF; */
     --prePerson: #7F9D9F;
 }
 
@@ -23,12 +23,15 @@ body{
 }
 
 /* Caixa principal */
+
 .blue-box{
     font-weight: 700;
     font-family: 'Space Mono', monospace;
     font-size: 17px;
 }
+
 /* Logo */
+
 .logo-box{
     display: flex;
     justify-content: center;
@@ -37,6 +40,7 @@ body{
 }
 
 /* Caixa da Calculadora */
+
 .main-box{
     display: flex;
     justify-content: center;
@@ -61,7 +65,8 @@ input{
     cursor: pointer;
 }
 
-/* PRIMEIRA BOX - Bill */
+/* Bill */
+
 .input-first .bill{
     width: 20rem; 
     height: 2.5rem;
@@ -72,7 +77,8 @@ input{
     margin-top: 0.8rem;
 }
 
-/* SEGUNDA BOX - Select Tip */
+/* Select Tip */
+
 .middle-box{
     margin-top: 2rem;
 }
@@ -85,6 +91,7 @@ input{
 } 
 
 /* Tip Percents */
+
 .tip-percent{
     display: flex;
     width:8rem ;
@@ -100,6 +107,7 @@ input{
 }
 
 /* Custom */
+
 .tip-percent .input-second{
     width:8rem ;
     height: 2.8rem;
@@ -128,7 +136,7 @@ input{
     margin-bottom: 2rem;
 }
 
-/* ULTIMA BOX */
+/* BOX VERDE */
 
 .right-box{
     display: flex;
@@ -166,7 +174,7 @@ input{
     font-weight: 700;
     color: var(--dark-green-color);
     border-radius: 5px;
-    background-color: var(--btn-reset);
+    background-color: var(--input-color-tip-focus);
     text-transform: uppercase;
 }
 
@@ -218,4 +226,5 @@ input{
     .buttom-reset{
         padding-top: 4.5rem;
     }
+
 }
