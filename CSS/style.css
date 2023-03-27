@@ -167,3 +167,7 @@ input{
     font-weight: 700;
     font-size: 19px;
 }
+
+/* Fix right-box padding-bottom */
+/* align right-box content separating the classes final, total, prices */
+/* fix icons inside the inputs */
