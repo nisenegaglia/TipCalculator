@@ -19,6 +19,7 @@ body{
     background-color: var(--primary-background-color);
     display: flex;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 /* Caixa principal */
@@ -54,17 +55,16 @@ body{
 
 input{
     line-height: 2.175rem;
-    cursor: pointer;
     text-align: right;
     border: 0,125rem, solid var(--primary-white-color);
     border-radius: 3%;
-    /* caret-color: var(--input-color-tip-focus); */
+    cursor: pointer;
 }
 
 /* PRIMEIRA BOX - Bill */
 .input-first .bill{
     width: 20rem; 
-    height: 2rem;
+    height: 2.5rem;
     background-image: url(../IMAGES/icon-dollar.svg);
     background-repeat: no-repeat;
     background-size: auto;
@@ -101,14 +101,13 @@ input{
 
 /* Custom */
 .tip-percent .input-second{
-    font-family: 'Space Mono', monospace;
-    background-color: var(--input-background-color);
-    text-align: center;
-    color: var(--dark-green-color);
-    font-size: 24px;
-    font-weight: 700;
     width:8rem ;
     height: 2.8rem;
+    text-align: center;
+    font-family: 'Space Mono', monospace;
+    font-size: 24px;
+    font-weight: 700;
+    background-color: var(--input-background-color);
 }
 
 /* Number od People */
@@ -122,7 +121,7 @@ input{
     background-repeat: no-repeat;
     background-size: auto;
     width: 20rem; 
-    height: 2rem;
+    height: 2.5rem;
     border-radius:3%;
     border: 0,125rem, solid var(--primary-white-color);
     margin-top: 0.8rem;
@@ -139,16 +138,19 @@ input{
     height: 14rem;
     color: var(--primary-white-color);
     border-radius: 15px;
-    padding: 1.5rem;
+    padding-top: 2rem;
+    padding-right: 1.75rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1.75rem;
     font-size: 1rem;
 }
 
 
 .price{
-    color: var(--btn-reset-active-tipPersent-hover);
-    font-size: 2rem;
     display: flex;
     justify-content: flex-end;
+    color: var(--input-color-tip-focus);
+    font-size: 2rem;
 }
 
 .per-person{
@@ -157,17 +159,63 @@ input{
 }
 
 .buttom-reset .reset{
-    background-color: var(--btn-reset);
     width: 18rem;
     height: 3rem;
-    border-radius: 5px;
-    text-transform: uppercase;
-    color: var(--dark-green-color);
     text-align: center;
-    font-weight: 700;
     font-size: 19px;
+    font-weight: 700;
+    color: var(--dark-green-color);
+    border-radius: 5px;
+    background-color: var(--btn-reset);
+    text-transform: uppercase;
 }
 
-/* Fix right-box padding-bottom */
-/* align right-box content separating the classes final, total, prices */
-/* fix icons inside the inputs */
+.buttom-reset{
+    padding-top: 1rem;
+}
+
+
+@media all and (min-width:1100px){
+
+    .main-box{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        width: 50rem;
+        height: auto;
+    }
+
+    .left-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-right: 2.5rem;
+    }
+
+    .tip{
+        margin-bottom: 2.5rem;
+    }
+
+    .people, 
+    .input-first .bill{
+        width:27rem ;
+    }
+
+    .right-box{
+        width: 28rem;
+        height: 22rem;
+        font-size: 1.15rem;
+    }
+
+    .price{
+        font-size: 3rem;
+    } 
+
+    .final, .total{
+        padding-top: 1rem;
+    }
+
+    .buttom-reset{
+        padding-top: 4.5rem;
+    }
+}
