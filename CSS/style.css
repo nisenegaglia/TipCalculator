@@ -134,25 +134,36 @@ input{
 .right-box{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     background-color: var(--dark-green-color);
-    width: 20rem;
-    height: 15rem;
+    width: 18rem;
+    height: 14rem;
     color: var(--primary-white-color);
     border-radius: 15px;
+    padding: 1.5rem;
+    font-size: 1rem;
 }
 
-.buttom-reset .reset{
-    background-color: var(--btn-reset);
-    width: 17rem;
-    height: 3rem;
-    border-radius: 5px;
-    text-transform: uppercase;
-}
 
 .price{
     color: var(--btn-reset-active-tipPersent-hover);
     font-size: 2rem;
     display: flex;
     justify-content: flex-end;
+}
+
+.per-person{
+    color: var(--prePerson);
+    padding: 0.5rem ;
+}
+
+.buttom-reset .reset{
+    background-color: var(--btn-reset);
+    width: 18rem;
+    height: 3rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: var(--dark-green-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 19px;
 }
