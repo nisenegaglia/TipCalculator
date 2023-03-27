@@ -70,11 +70,16 @@ input{
 .input-first .bill{
     width: 20rem; 
     height: 2.5rem;
-    background-image: url(../IMAGES/icon-dollar.svg);
     background-repeat: no-repeat;
     background-size: auto;
     background-color: var(--input-background-color);
     margin-top: 0.8rem;
+    position: relative;
+}
+
+.img{
+    position: absolute;
+    top: 15rem ;
 }
 
 /* Select Tip */
@@ -125,7 +130,6 @@ input{
 }
 .people{
     background-color: var(--input-background-color);
-    background-image: url(../IMAGES/icon-person.svg);
     background-repeat: no-repeat;
     background-size: auto;
     width: 20rem; 
@@ -134,6 +138,12 @@ input{
     border: 0,125rem, solid var(--primary-white-color);
     margin-top: 0.8rem;
     margin-bottom: 2rem;
+    position: relative;
+}
+
+.icon-img{
+    top: 36.75rem ;
+    position: absolute;
 }
 
 /* BOX VERDE */
@@ -152,7 +162,6 @@ input{
     padding-left: 1.75rem;
     font-size: 1rem;
 }
-
 
 .price{
     display: flex;
@@ -225,6 +234,11 @@ input{
 
     .buttom-reset{
         padding-top: 4.5rem;
+    }
+
+    .icon-img{
+        top: 34rem ;
+        position: absolute;
     }
 
 }
