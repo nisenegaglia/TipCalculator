@@ -61,3 +61,5 @@ https://www.w3schools.com/TAgs/tag_section.asp - This helped me understand the r
 https://www.alura.com.br/artigos/css-guia-do-flexbox - This is an amazing article which helped me to get a responsive page. Now, i just want use flexbox inside my projects.
 
 https://medium.com/dev-eagle-tecnologia/padr%C3%B5es-de-escrita-css-fff935be78ac - Amazing article i studied to get a organized css.
+
+https://pt.stackoverflow.com/questions/332230/resetar-p%c3%a1gina-atrav%c3%a9s-do-bot%c3%a3o-reset - Get informations about parseint/parsefloat.
