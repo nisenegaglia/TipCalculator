@@ -3,9 +3,7 @@
 const bill = document.querySelector("#bill") //form
 const peoplenumber = document.querySelector("#people-number") //form
 const billtotal = document.querySelector("#bill-total") //input
-const custom = document.querySelector("#custom") //input
 const people = document.querySelector("#people") // input
-const reset = document.querySelector("#reset") // input
 
 // Funções
 let billvalue = 0
