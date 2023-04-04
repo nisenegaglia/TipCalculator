@@ -175,7 +175,7 @@ input{
 }
 
 .calculate{
-    padding-top: 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -211,7 +211,7 @@ input{
         font-size: 1.15rem;
     }
 
-    .price{
+    .price, .price-1{
         font-size: 3rem;
     } 
 
@@ -219,7 +219,7 @@ input{
         padding-top: 1rem;
     }
 
-    .buttom-reset{
+    .buttom-calculate{
         padding-top: 4.5rem;
     }
 
