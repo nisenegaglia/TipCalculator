@@ -1,30 +1,15 @@
-// Seleção de Elementos
+document.getElementById("price-1").style.display = "none"
+document.getElementById("price").style.display = "none"
 
-const bill = document.querySelector("#bill") //form
-const peoplenumber = document.querySelector("#people-number") //form
-const billtotal = document.querySelector("#bill-total") //input
-const people = document.querySelector("#people") // input
+function calculateDinner(){
+    var totalConta = document.getElementById("bill-total").value;
+    var taxaServico = document.getElementById("select-tip").value;
+    var numeroPessoas = document.getElementById("people").value;
 
-// Funções
-let billvalue = 0
-let peoplenumbervalue = 0
-let customvalur = 0
-
-billtotal.addEventListener('input', function(){
-    biil = parseFloat (this.value)
-    makeCalculations()
-})
-
-custom.addEventListener('input', function(){
-    custom = parseFloat (this.value)
-    makeCalculations()
-})
-
-people.addEventListener('input', function(){
-    people = parseInt (this.value)
-    makeCalculations()
-})
-
-function reset (){
-    location.reload('reset')
+    if(totalConta === "" || taxaServico == 0 || isNaN(totalConta) || isNaN(numeroPessoas)){
+        alert("Please, enter a valid value!");
+        return;
+    }
 }
+
+console.log(calculateDinner);

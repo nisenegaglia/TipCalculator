@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style.css"/>
     <link rel="stylesheet" href="../CSS/reset.css"/>
-    <script src="../JS/script.js" defer></script>
     <title>TipCalculator</title>
 </head>
 
@@ -38,12 +37,12 @@
                 <section class="middle-box">
                     <div class="tip">
                         <label class="form-text">Select Tip %</label>
-                        <section class="percentage">
-                            <div class="tip-percent" tabindex="1" value="5">5%</div>
-                            <div class="tip-percent" tabindex="2"value="10">10%</div>
-                            <div class="tip-percent" tabindex="3"value="15">15%</div>
-                            <div class="tip-percent" tabindex="4"value="25">25%</div>
-                            <div class="tip-percent" tabindex="5"value="50">50%</div>
+                        <section class="percentage" id="select-tip">
+                            <button class="tip-percent" tabindex="1" value="5">5%</button>
+                            <button class="tip-percent" tabindex="2"value="10">10%</button>
+                            <button class="tip-percent" tabindex="3"value="15">15%</button>
+                            <button class="tip-percent" tabindex="4"value="25">25%</button>
+                            <button class="tip-percent" tabindex="5"value="50">50%</button>
                             <div class="tip-percent" tabindex="6">
                                 <input class="input-second" id="custom" type="number" name="tip" min="1" placeholder="Custom" step="0,01">
                             </div>
@@ -69,16 +68,16 @@
 
                 <div class="final">
                     <div class="name"> Tip Amount
-                        <div class="per-person">/ person</div>
+                        <div class="per-person" id="per-person">/ person</div>
                     </div>
-                    <div class="price">$0.00</div>
+                    <div class="price" id="price">$0.00</div>
                 </div>
 
                 <div class="total">
                     <div class="name"> Total
-                        <div class="per-person">/ person</div>
+                        <div class="per-person" id="per-person">/ person</div>
                     </div>
-                    <div class="price"> $0.00</div>
+                    <div class="price" id="price-1"> $0.00</div>
                 </div>
 
                 <div class="buttom-reset">
@@ -88,6 +87,6 @@
             </section>
         
         </section>
-    
+        <script src="../JS/script.js" defer></script>
 </body>
 </html>
