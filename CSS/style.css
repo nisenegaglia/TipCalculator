@@ -150,7 +150,7 @@ input{
     font-size: 1rem;
 }
 
-.price{
+.price, .price-1{
     display: flex;
     justify-content: flex-end;
     color: var(--input-color-tip-focus);
@@ -162,7 +162,7 @@ input{
     padding: 0.5rem ;
 }
 
-.buttom-reset .reset{
+.buttom-calculate .calculate{
     width: 18rem;
     height: 3rem;
     text-align: center;
@@ -174,7 +174,7 @@ input{
     text-transform: uppercase;
 }
 
-.buttom-reset{
+.calculate{
     padding-top: 1rem;
 }
 

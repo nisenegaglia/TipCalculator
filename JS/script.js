@@ -10,6 +10,24 @@ function calculateDinner(){
         alert("Please, enter a valid value!");
         return;
     }
+
+    if(numeroPessoas === "" || numeroPessoas <= 1){
+        numeroPessoas = 1;
+        document.getElementById("people").style.display = "none"
+    } else{
+        document.getElementById("people").style.display = "block"
+    }
+
+    var totalTaxaServico = (totalConta * taxaServico) / numeroPessoas;
+    var total = totalTaxaServico + (totalConta / numeroPessoas);
+
+    total = Math.round(total * 100) / 100;
+    total = total.toFixed(2);
+
+    document.getElementById("price").style.display = "block";
+    document.getElementById("price-1").innerHTML = "total";
 }
 
-console.log(calculateDinner);
+document.getElementById("calculation").onclick = function(){
+    calculateDinner();
+}
