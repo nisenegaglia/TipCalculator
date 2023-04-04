@@ -25,7 +25,7 @@ function calculateDinner(){
     total = total.toFixed(2);
 
     document.getElementById("price").style.display = "block";
-    document.getElementById("price-1").style.display = "block";
+    document.getElementById("price-1").style.display = "block";  //.innerHTML = "total"; ??
 }
 
 document.getElementById("calculation").onclick = function(){
